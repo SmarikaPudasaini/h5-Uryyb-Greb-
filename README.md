@@ -12,10 +12,17 @@ Again Imported receint´s public key by using  imports the key $ gpg --import al
 
 After this i write a secret message  $ micro message.txt and saves it
 
-Again, encrypts and signs the message using $ gpg --homedir . --encrypt --recipient jaduu@example.com.invalid --sign --output encrypted.pgp --armor message.txt
+Again, encrypts and signs the message using $ gpg --homedir . --encrypt --recipient esmarikap@example.com.invalid --sign --output encrypted.pgp --armor message.txt
 
 Finally, message is decrypted using secret key which is signature in this case.
 
 ### Why did you choose the tool you used here? Evaluate the tool.
 
 The reason to choose this openSSL because it is flexible and powerful and useful for real world applications also easy, simple to install on many systems, and recommendable for everyday secure message and file encryption which is secure.
+
+SOURCES
+
+Karvinen, Tero. “PGP ‒ Send Encrypted and Signed Message – gpg.” TeroKarvinen.com, 2023, https://terokarvinen.com/2023/pgp-encrypt-sign-verify/
+. Accessed 
+
+
